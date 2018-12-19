@@ -1,0 +1,151 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.background{
+	width: 100%;
+        height: 100%;
+	background-image: url('best.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav{
+         width: 350px;
+         height: auto;
+         position: absolute;
+         top: 20%;
+         letf: 0;
+}
+.nav a{
+         text-decoration: none;
+         font-size: 28px;
+         font-family: verdana;
+         font-weight: bold;
+         height: 90px;
+         margin: 5px 0;
+         float: left;
+         display: inline-block;
+         background-color: black;
+         color: white;
+         line-height:  90px;
+         text-align: center;
+         transition: 300ms;
+}
+a.active, .nav a:hover{
+         background-color: white;
+         color: black;
+         width: 100%
+}
+.a{
+         width: 95%;
+}
+.b{
+         width: 85%;
+}
+.c{
+         width: 80%;
+}
+.d{
+         width: 90%;
+}
+.content{
+         position: absolute;
+         width: 930px;
+         min-height: 500px;
+         height: auto;
+         /*background-color: red;*/  
+         right: 0;
+         top: 10%;   
+ }          
+ .home{
+         position: absolute;
+         right: 0;
+         bottom: -50px;
+         color: blue;
+         font-family: verdana;
+}
+.home h1{
+         font-size: 80px;
+         padding-right: 70px;
+         border-bottom: 1px solid blue;
+         text-transform: uppercase;
+}
+.home h2{
+        font-size: 28px;
+        padding: 5px 0;
+        opacity: 0.6;
+}
+.aboutus{
+        position: absolute;
+         right: 0;
+         top: 10px;
+         color: pink;
+         font-family: centuary gothic;
+         padding: 0 60px;
+}
+.aboutus p{
+         font-size: 30px;  
+         line-height: 28px;
+         marigin-botttom: 15px; 
+             
+}
+.mypassion quotes{
+         position: absolute;
+         right: 0;
+         top: 20px;
+         color: white;
+         padding: 0 60px;   
+         display: none;
+}
+.mypassion quotes.image{
+        width: 29%;
+        margin: 2%;
+        float: left;
+}
+.image img{
+        width: 30%;
+        float: left;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        transform: scale(1);
+        -webkit-transition: scale(1);
+}
+.image img:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+}
+.about {
+         position: absolute;
+         text-align: center;
+         right: 0;
+          color: pink;
+         font-family: verdana;
+}
+.about  h4{
+         font-size: 80px;
+         padding-right: 70px;
+         text-align: center;
+         text-transform: uppercase;
+}
+.about p{
+         font-size: 30px;
+          color: white ; 
+         text-align: center;
+         line-height: 28px;
+         marigin-botttom: 15px; 
+             
+}
+.about  h6{
+         font-size: 50px;
+         padding-right: 70px;
+         text-align: center;
+         color:orange;
+}

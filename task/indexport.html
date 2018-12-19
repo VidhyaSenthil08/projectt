@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="stylle.css">
+</head>
+<body>
+<div class="background">
+<div class="nav">
+   <a class="a active" href="page.html">HOME</a>
+   <a class="b" href="about.html">ABOUT ME</a>
+   <a class="c" href="passion.html">MYPASSION QUOTES</a>
+   <a class="d" href="pass.html">ABOUT MYPASSION</a>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("a").click(function(){
+    //alert(" i am click");
+        var selected = $(this);
+        $("a").removeClass("active");
+        $(selected).addClass("active");
+    });
+    $("a").click(function(){
+        $("home").fadeIn();
+        $("aboutus").fadeOut();
+    });
+    $("b").click(function(){
+        $("aboutus").fadeIn();
+        $("home").fadeOut();
+    });
+
+
+});
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
